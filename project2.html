@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login page clone</title>
+    <link rel="shortcut icon" href="facebook icon.png" type="image/x-icon">
+</head>
+<style>
+    body{
+        height: 700px;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+    }
+    .box{
+        width:380px;
+        height:300px;
+        border:2px solid rgb(207, 199, 199);
+        padding:16px;
+        margin:12px; 
+    }
+    input{
+     border: 1px solid rgb(187, 180, 180);
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+    margin-left: auto;
+    }
+    a{
+        margin-left:100px;
+        color:blue
+    }
+    .login{
+        background-color: blue;
+        color: white;
+    }
+    .create{
+        background-color: rgb(36, 193, 36);
+        color:white;
+        width:200px;
+        margin-left:80px;
+    }
+    .write{
+        margin-left:14px;
+    }
+    .align{
+        padding-left:12px;
+    }
+</style>
+<body>
+    <div class="facebook">
+        <img src="facebook.png" alt="NO IMAGE FOUND" width="600px" height="200px"><br>
+        <p class="write"><b>Facebook helps you connect and share</b></p>
+        <p class="write"><b>with the people in your life.</b></p>
+    </div>
+    <div class="box">
+        <form action="backend.php" class="align">
+            <input type="text" placeholder="Email address or phone number"><br><br>
+            <input type="password" placeholder="password"><br><br>
+            <input type="submit" value="Log in" class="login"><br><br>
+            <a href="#"  target="_blank">Forgotten password?</a><br><br><br><br>
+            <input type="submit" value="Create new account" class="create">
+        </form>
+    </div>
+</body>
+</html>
